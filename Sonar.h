@@ -15,7 +15,7 @@ public:
 
   int inches();
 
-  double feet();
+  float feet();
 
   virtual void pciHandleInterrupt(byte vector);
 };

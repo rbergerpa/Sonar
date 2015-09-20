@@ -13,7 +13,7 @@ int Sonar::inches() {
   return duration / MICROSECONDS_PER_INCH;
 };
 
-double Sonar::feet() {
+float Sonar::feet() {
   return duration / MICROSECONDS_PER_FOOT;
 }
 
